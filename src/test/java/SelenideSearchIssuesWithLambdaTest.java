@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-public class SelenideSearchIssuesWithLambda {
+public class SelenideSearchIssuesWithLambdaTest {
     SelenideSearchIssuesWithSteps selenideSearchIssuesWithSteps = new SelenideSearchIssuesWithSteps();
     private static final String REPOSITORY = "/DimaKarpuk";
     private static final String NameREPOSITORY = "/demoqa-tests-23";
